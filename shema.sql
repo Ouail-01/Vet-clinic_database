@@ -8,6 +8,6 @@ CREATE TABLE animals (
     date_of_birth DATE,
     escape_attempts INTEGER,
     neutred BOOLEAN,
-    decimal DECIMAL,
+    weight_kg DECIMAL,
     PRIMARY KEY (id)
 );
