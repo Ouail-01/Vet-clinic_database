@@ -27,6 +27,7 @@ Feel free to use the provided queries or run your own custom queries.
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -35,8 +36,6 @@ Feel free to use the provided queries or run your own custom queries.
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
 
 **[Vet Clinic Database]** is a relational database project designed to store data related to a veterinary clinic. It provides tables and queries for managing information about animals, appointments, and medical records.
 
@@ -67,11 +66,20 @@ Feel free to use the provided queries or run your own custom queries.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Vet CLINIC]**
+- [ ] **[Animals Shedule]**
+- [ ] **[Vets Info]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Ouail-01/Vet-clinic_database/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
