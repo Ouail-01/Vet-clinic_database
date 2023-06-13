@@ -128,7 +128,7 @@ rubocop -A
  
  ## 👥 Authors <a name="authors"></a>
  
- 👤 * Ouail Laarabi*
+ 👤 *Ouail Laarabi*
  
  - GitHub: [Click here](https://github.com/Ouail-01?tab=overview&from=2023-01-01&to=2023-01-02)
  - Twitter: [Click here](https://twitter.com/Ouail_Laarabi)
