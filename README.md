@@ -140,6 +140,12 @@ rubocop -A
  - GitHub: [@prius2055](https://github.com/prius2055)
  - Twitter: [@prius2055](https://www.twitter.com/prius2055)
  - LinkedIn: [@prius2055](https://www.linkedin.com/prius2055)
+
+👤 **Damilare**
+
+- GitHub: [@githubhandle](https://github.com/bestbynature)
+- Twitter: [@twitterhandle](https://twitter.com/Dammybest)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/damilareismailabestbynature/)
  
  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
