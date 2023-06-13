@@ -36,3 +36,24 @@ CREATE TABLE treatments (
     name VARCHAR(250),
     PRIMARY KEY (id)
 );
+
+-- Create invoice_items table
+
+CREATE TABLE invoice_items (
+    id INTEGER GENERATED ALWAYS AS IDENTITY,
+    unit_price DECIMAL,
+    quantity INTEGER,
+    total_price DECIMAL,
+    invoice_id INTEGER REFERENCES invoices(id),
+    treatment_id INTEGER REFERENCES treatments(id),
+    PRIMARY KEY (id)
+);
+
+-- Create many to many relation :
+
+CREATE TABLE medical_treatments (
+    id INTEGER GENERATED ALWAYS AS IDENTITY,
+    medical_histories_id INTEGER REFERENCES medical_histories(id),
+    treatments_id INTEGER REFERENCES treatments(id),
+    PRIMARY KEY (id)
+);
