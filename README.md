@@ -52,74 +52,77 @@ This repository includes files with plain SQL that can be used to recreate a dat
  
  <!-- GETTING STARTED -->
  
- ## 💻 Getting Started <a name="getting-started"></a>
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+
+Example command:
+
+```sh
+1.use a browser
+2.use cable internet
+```
  
- 
- 
- To get a local copy up and running, follow these steps.
- 
- ### Prerequisites
- 
- In order to run this project you need:
- 
- 
- Example command:
- 
- sh
- 1.use a browser
- 2.use cable internet
- 
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
   
- 
- ### Setup
- 
- Clone this repository to your desired folder:
- 
- 
- Example commands:
- 
- sh
-   
-   git clone git@github.com:Ouail-01/Vet-clinic_database.git
-   cd Vet-clinic_database
- 
- 
- 
- 
- 
- ### Install
- 
- Install this project with:
- 
- 
- Example command:
- 
- sh
- bundle install
- 
- 
- 
- ### Usage
- 
- To run the project, execute the following command:
- 
- 
- Example command:
- 
- sh
- - Open the terminal to play with the commands.
- 
- 
- 
- ### Run tests
- 
- To run tests for the linter, run the following command:
- 
- 
- Example command:
- 
- sh
- rubocop -A
+  git clone git@github.com:Ouail-01/Vet-clinic_database.git
+  cd Vet-clinic_database
+
+
+```
+
+
+### Install
+
+Install this project with:
+
+
+Example command:
+
+```sh
+bundle install
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+Example command:
+
+```sh
+- Open the terminal to play with the commands.
+```
+
+
+### Run tests
+
+To run tests for the linter, run the following command:
+
+
+Example command:
+
+```sh
+rubocop -A
+```
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
