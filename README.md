@@ -6,9 +6,12 @@
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use schema.sql to create all tables.
-- Use data.sql to populate tables with sample data.
-- Check queries.sql for examples of queries that can be run on a newly created database. Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!
+
+- Take a look at the following database diagram for the vet-clinic:
+     -   <img src="./vet-clinic-diagram.png" alt="Vet-clinic diagram" />
 
 <a name="readme-top"></a>
 
@@ -45,7 +48,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
  
  ## Key Features
  
- 
  - Schema based on diagram😊👌
  - OPtimization the foreign key with indexing💯
  - Use the many to many relationship🚀
@@ -55,8 +57,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-
 
 To get a local copy up and running, follow these steps.
 
@@ -71,7 +71,6 @@ Example command:
 1.use a browser
 2.use cable internet
 ```
- 
 
 ### Setup
 
@@ -88,18 +87,15 @@ Example commands:
 
 ```
 
-
 ### Install
 
 Install this project with:
-
 
 Example command:
 
 ```sh
 bundle install
 ```
-
 
 ### Usage
 
@@ -111,7 +107,6 @@ Example command:
 ```sh
 - Open the terminal to play with the commands.
 ```
-
 
 ### Run tests
 
@@ -128,14 +123,13 @@ rubocop -A
  
  ## 👥 Authors <a name="authors"></a>
  
- 👤 *Ouail Laarabi*
+ 👤 **Ouail Laarabi**
  
  - GitHub: [Click here](https://github.com/Ouail-01?tab=overview&from=2023-01-01&to=2023-01-02)
  - Twitter: [Click here](https://twitter.com/Ouail_Laarabi)
  - LinkedIn: [Click here](https://www.linkedin.com/in/ouail-laarabi-53203b250/)
  
- 
- 👤 *Prince*
+ 👤 **Prince**
  
  - GitHub: [@prius2055](https://github.com/prius2055)
  - Twitter: [@prius2055](https://www.twitter.com/prius2055)
@@ -146,7 +140,6 @@ rubocop -A
 - GitHub: [@githubhandle](https://github.com/bestbynature)
 - Twitter: [@twitterhandle](https://twitter.com/Dammybest)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/damilareismailabestbynature/)
- 
  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
@@ -195,6 +188,5 @@ rubocop -A
  ## 📝 License <a name="license"></a>
  
  This project is [MIT](https://github.com/Ouail-01/Vet-clinic_database/blob/dev/LICENSE) licensed.
- 
- 
+  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
