@@ -16,3 +16,23 @@ CREATE TABLE medical_histories (
     status VARCHAR(250),
     PRIMARY KEY (id)
 );
+
+-- Create invoices table
+
+CREATE TABLE invoices (
+    id INTEGER GENERATED ALWAYS AS IDENTITY,
+    total_amount DECIMAL,
+    generated_at TIMESTAMP,
+    payed_at TIMESTAMP,
+    medical_history__id INTEGER REFERENCES medical_histories(id),
+    PRIMARY KEY (id)
+);
+
+-- Create treatments table
+
+CREATE TABLE treatments (
+    id INTEGER GENERATED ALWAYS AS IDENTITY,
+    type VARCHAR(250),
+    name VARCHAR(250),
+    PRIMARY KEY (id)
+);
